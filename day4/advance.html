@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Page</title>
+    
+</head>
+
+<style>
+    form{
+        border: 2px solid rgb(26, 25, 24);
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 200px;
+        justify-content:space-evenly;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .input{
+        display: flex;
+        border: 2px solid black;
+        padding: 10%;
+        border-radius: 10px;
+        align-items: center;
+    }
+    .input input{
+        border: 10px;
+        border-radius: 0px;
+        height: 50%;
+        width: 50%;
+    }
+    body{
+        height: 100vh;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .login-form {
+      background-color: #100a0a;
+      padding: 20px 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 300px;
+    }
+</style>
+</head>
+<form>
+<div class="input">
+    <label for="input"></label>
+   <input type="text" name="username" placeholder="Username">
+    <i class="fa-solid fa-circle-user"></i>
+      <input type="text" name="password" placeholder="Password">
+      <i class="fa-solid fa-lock"></i>
+      </div>
+</form>
+</html>
